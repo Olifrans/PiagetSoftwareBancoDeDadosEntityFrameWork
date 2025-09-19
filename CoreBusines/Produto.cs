@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace CoreBusines
 {
+    /// <summary>
+    /// Classe produto
+    /// </summary>
     class Produto : Base
     {
         public string? NomeDoProduto { get; set; }
