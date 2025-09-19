@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace CoreBusines
 {
+
     /// <summary>
-    /// Classe produto
+    /// Classe produto que com extends de Base
     /// </summary>
-    class Produto : Base
+    public class Produto : Base
     {
         public string? NomeDoProduto { get; set; }
         public string? DescricaoDoProduto { get; set; }
